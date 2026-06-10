@@ -9,9 +9,11 @@ Customer churn happens when customers stop doing business with a company. In thi
 - **Libraries used:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
 
 ## 🔍 Key Data Insights & Exploratory Data Analysis (EDA)
-*(Tip: Replace these with 2-3 actual findings from your data analysis!)*
-- **Insight 1:** Customers with Month-to-Month contracts had a significantly higher churn rate compared to those on 1-year or 2-year contracts.
-- **Insight 2:** New customers (low tenure) who did not opt for tech support showed the highest likelihood of leaving.
+
+During the analysis, I discovered three major drivers causing customer churn:
+- **Contract Preference:** Customers on Month-to-Month contracts show a significantly higher churn rate compared to those on stable 1-year or 2-year contracts.
+- **Tenure Vulnerability:** Customers with lower tenure (newer accounts) are highly susceptible to leaving, meaning onboarding retention strategies are critical.
+- **Price Sensitivity:** Customers facing higher monthly charges tend to churn at a much faster rate, highlighting clear user price sensitivity.
 
 ## 🤖 Machine Learning Modeling & Results
 I preprocessed the data (handling missing values, encoding categorical variables, and scaling features) and trained classification models to predict churn.
